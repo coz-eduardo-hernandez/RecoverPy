@@ -3,7 +3,7 @@ from typing import List, Optional, Tuple
 
 from recoverpy.models.partition import Partition
 
-_IGNORED_PARTITION_TYPES: Tuple[str, str] = (" loop ", "swap")
+_IGNORED_PARTITION_TYPES: Tuple[str, str] = ("swap")
 
 
 def get_partitions() -> List[Partition]:
